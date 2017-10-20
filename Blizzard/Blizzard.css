@@ -38,12 +38,8 @@
 #racepic
 {
     padding-top: 100px;
-    height:500px;
-}
-
-#mountpic
-{
-    height: 250px;
+    padding-left: 50px;
+    width:500px;
 }
 
 #info
