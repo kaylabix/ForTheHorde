@@ -1,0 +1,52 @@
+#RE
+{
+    float: right;
+    margin-top: 70px;
+    margin-right: 100px;
+    color: #96D5F0;
+}
+
+#heading
+{
+    margin-top: 50px;
+    background-color: #05101B;
+}
+
+#blizz-logo
+{
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+
+#horde
+{
+    padding-top:50px;
+    height: 200px;
+}
+
+#alliance
+{
+    padding-top:50px;
+    height: 200px;
+}
+
+.btn-group-vertical
+{
+    padding-top: 25px;
+}
+
+#racepic
+{
+    padding-top: 100px;
+    height:500px;
+}
+
+#mountpic
+{
+    height: 250px;
+}
+
+#info
+{
+    padding-top: 100px;
+}

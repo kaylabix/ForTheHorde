@@ -1,0 +1,64 @@
+
+<html ng-app="blizzardApp">
+    <head>
+        <title>Blizzard Race Explorer</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+        <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="Blizzard.css">
+    </html>
+</html>
+
+<div class=heading-border>
+    <div id=heading class=container>
+        <img id=blizz-logo src="https://vignette.wikia.nocookie.net/overwatch/images/7/78/Logo-blizzard.png/revision/latest?cb=20160307211547">
+        <h1 id=RE>Race Explorer</h1>
+    </div>
+</div>
+
+<div class=container ng-controller="blizzController">
+    <div class=row>
+        <div class=col>
+            <img id=horde src="https://seeklogo.com/images/W/World_of_Warcraft_Horde_PvP-logo-E1C4DB80A9-seeklogo.com.png">
+        </div>
+        <div class=col>
+        
+            <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-outline-danger" ng-click="handleRaceClick('orc')">Orc</button>
+                    <button type="button" class="btn btn-outline-danger" ng-click="handleRaceClick('undead')">Undead</button>
+                    <button type="button" class="btn btn-outline-danger" ng-click="handleRaceClick('tauren')">Tauren</button>
+                    <button type="button" class="btn btn-outline-danger" ng-click="handleRaceClick('troll')">Troll</button>
+                    <button type="button" class="btn btn-outline-danger" ng-click="handleRaceClick('belf')">Blood Elf</button>
+                    <button type="button" class="btn btn-outline-danger" ng-click="handleRaceClick('goblin')">Goblin</button>
+            </div>
+        </div>
+
+        <div class=col>
+            <img id=alliance src="https://img00.deviantart.net/f0a1/i/2013/023/9/7/alliance_logo_by_ammeg88-d5sggii.png">
+        </div>
+        <div class=col>
+            <div class="btn-group-vertical">
+                <button type="button" class="btn btn-outline-primary" ng-click="handleRaceClick('human')">Human</button>
+                <button type="button" class="btn btn-outline-primary" ng-click="handleRaceClick('dwarf')">Dwarf</button>
+                <button type="button" class="btn btn-outline-primary" ng-click="handleRaceClick('nelf')">Night Elf</button>
+                <button type="button" class="btn btn-outline-primary" ng-click="handleRaceClick('gnome')">Gnome</button>
+                <button type="button" class="btn btn-outline-primary" ng-click="handleRaceClick('draenei')">Draenei</button>
+                <button type="button" class="btn btn-outline-primary" ng-click="handleRaceClick('worgen')">Worgen</button>
+            </div>
+        </div>
+    </div>
+    <div class=row>
+        <div class=col>
+            <img id=racepic src="belf.jpg">
+        </div>
+        <div id=info class=col>
+            <h1>Blood Elf</h1>
+            <h2>Faction: </h2>
+            <h2>City: </h2>
+            <h2>Mount: </h2>
+            <h2>Language:</h2>
+            <h2>Playable Classes:</h2>
+            <h2>Lore: </h2>
+            <p><em>Lore</em></p>
+        </div>
+    </div>
+</div>
